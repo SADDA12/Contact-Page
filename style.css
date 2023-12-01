@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(17, 17, 17);
+    color: white;
+    height: 100vh;
+}
+
+.formtitle{
+    margin-left: 20px;
+}
+
+.formcontrol{
+    margin-left: 20px;
+}
+
+input{
+    all:unset;
+    display: block;
+    width: 15cm;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid gray ;
+    height: 1cm;
+}
+
+textarea{
+    display: block;
+    width: 15cm;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button{
+    all:unset;
+    margin: 20px;
+    padding: 6px;
+    background-color: rgb(121, 121, 15);
+    border-radius: 15px;
+    border: 1px solid gray;   
+}
+
+
+header{
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    padding: 20px 100px;
+}
+
+.header-links{
+    width: 70%;
+    font-size: 20px;
+}
+
+.header-search{
+    width: 30%;
+    font-size: 24px;
+}
+
+footer{
+    background-color: black;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    padding: 20px 100px;
+}
+
+.footer-logo{
+   width: 20%;
+}
+
+.footer-info{
+   width: 50%;
+}
+
+.info{
+    font-size: 24px;
+}
+
+.footer-note{
+    width: 30%;
+}
+
+.note{
+    border: 0.5px solid rgb(128, 123, 123);
+    font-size: 24px;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul{
+    display: flex;
+}
+
+.search-input{
+    background-color:rgb(70, 69, 69);
+    border-radius: 50px;
+    width: 350px;
+    padding: 10px;
+}
+
+.login{
+    color: white;
+}
